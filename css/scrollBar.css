@@ -1,0 +1,39 @@
+body{
+    align-items: center;
+}
+
+.wrapper{
+    max-height: auto;
+    max-width: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.listItem{
+    display: flex;
+    transition: 0.5s;
+}
+.wrapper .item{
+    justify-content: center;
+    position:sticky;
+    min-width: 500px;
+    height: auto;
+    text-align: center;
+}
+.btn{
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+    cursor : pointer;
+}
+.btn:hover{
+    color: white;
+}
+.btnleft{
+    left: 0;
+}
+.btnRight{
+    right: 0;
+}

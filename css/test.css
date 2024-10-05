@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+}
+
+.menu {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu input{
+    display: none;
+}
+.menu label{
+    width: 80%;
+    height: 50px;
+    font-size: 40px;
+    display: flex;
+}
+
+.a{
+    width: 500px;
+    height: 500px;
+}
+
+.x{
+    background-color: brown;
+    display: none;
+}
+
+.y{
+    background-color: blue;
+    display: none;
+    position: absolute;
+}
+.z{
+    background-color: blueviolet;
+    display: none;
+    position: absolute;
+}
+
+.menu div input:checked + label div{
+    display: block;
+    position: absolute;
+    right: 0px;
+}
