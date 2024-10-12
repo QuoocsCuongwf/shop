@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
     <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="css/productsBar.css">
     <link rel="stylesheet" href="css/headerBar.css">
@@ -10,122 +13,144 @@
     
 </head>
 <body>
-    <div class="headerBar">
-        <div class="logo">
-            <span style="color: aliceblue;">TapTap</span>
-            <span>Shop</span>
-        </div>
-        <form action="*" class="header_search">
-            <div>
-                <input class="input_search" type="text" placeholder="tìm kiếm">
+    <header>
+        <div class="headerBar">
+            <div class="logo">
+                <span style="color: aliceblue;">TapTap</span>
+                <span>Shop</span>
             </div>
-        </form>
-        <div class="login">
-            <a href="login.html" style="text-decoration: none;"> 
-                <div style="display: flex;">
-                    <div>
-                        <img src="img/user.png" style="height: 20px; width: 20px; margin: 15px; display: inline;">
-                    </div>
-                    <div>
-                        <p style="padding-top: 1px; color: black;">Login</p>
-                    </div>
+            <div style="display: flex;">
+                <form action="*" class="header_search">
+                    <input class="input_search" type="text" placeholder="tìm kiếm">
+                </form>
+                <div class="login">
+                    <a href="login.html" style="text-decoration: none;"> 
+                        <div style="display: flex;">
+                            <div>
+                                <img src="img/user.png" style="height: 20px; width: 20px; display: inline;">
+                            </div>
+                            <div>
+                                <p style=" color: black; margin-left: 5px;">Login</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-            </a>
-        </div>
-        <div class="Shopping">
-            <a href="*" style="text-decoration: none;"> 
-                <div style="display: flex;">
-                    <div>
-                        <img src="img/shopping-cart.png" style="height: 20px; width: 20px; margin: 15px; display: inline;">
-                    </div>
-                    <div>
-                        <p style="padding-top: 1px; color: black;">Shopping</p>
-                    </div>
+                <div class="Shopping">
+                    <a href="*" style="text-decoration: none;"> 
+                        <div style="display: flex;">
+                            <div>
+                                <img src="img/shopping-cart.png" style="height: 20px; width: 20px; display: inline; margin-left: 5px;">
+                            </div>
+                            <div>
+                                <p style="color: black; margin-left: 5px;">Shopping</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-            </a>
-        </div>
-        <div class="contract-pay">
-            <nav>
-                <a href="payGate.html"><span>Matter Card: 4645**********7574</span></a>
-            </nav>
-            <span> &nbsp| user@gmail.com</span>
-        </div>
-    </div>
-    <div style="height: 40px;"></div>
-    <div class="menu_products">
-        <div class="products">
-            <a href="*" class="products">
-                <img src="img/mobile-notch.png" alt="" class="icon_products">
-                <div class="name-products">
-                    <span>SmartPhone</span>
-                </div>
-            </a>
-        </div>
-        <div class="products" >
-            <a href="*" class="products">
-                <img src="img/laptop.png" alt="" class="icon_products">
-                <div class="name-products">
-                    <span>Laptop</span>
-                </div>
-            </a>
-        </div>
-        <div class="products">
-            <a href="*" class="products">
-                <img src="img/computer.png" alt="" class="icon_products">
-                <div class="name-products">
-                    <span>Computer</span>
-                </div>
+            </div>
+            <div class="address">
+                <a href="">
+                    <i class='bx bx-map' ></i>
+                    <span>Tp Hồ Chí Minh</span>
+                </a>
+                <form action="">
+                    <!-- <select name="calc_shipping_provinces" required="">
+                        <option value="">Tỉnh / Thành phố</option>
+                    <input class="billing_address_1" name="" type="hidden" value="">
+                    <input class="billing_address_2" name="" type="hidden" value=""> -->
 
-            </a>
+                </form>
+            </div>
         </div>
-        <div class="products">
-            <a href="*" class="products">
-                <img src="img/watch-smart.png" alt="" class="icon_products">
-                <div class="name-products">
-                    <span>Smart Watch</span>
-                </div>
-            </a>
+        <div style="height: 40px;"></div>
+        <div class="menu_products">
+            <div class="products">
+                <nav class="nav-fa">
+                    <a href="*" class="products">
+                        <img src="img/mobile-notch.png" alt="" class="icon_products">
+                        <div class="name-products">
+                            <span>SmartPhone</span>
+                        </div>
+                        <nav class="nav-child">
+                                <a href="*">1234567</a>
+                                <a href="">1234567</a>
+                                <a href="">1234567</a>
+                                <a href="">1234567</a>
+                        </nav>
+                    </a>
+                </nav>
+            </div>
+            <div class="products" >
+                <a href="*" class="products">
+                    <img src="img/laptop.png" alt="" class="icon_products">
+                    <div class="name-products">
+                        <span>Laptop</span>
+                    </div>
+                </a>
+            </div>
+            <div class="products">
+                <a href="*" class="products">
+                    <img src="img/computer.png" alt="" class="icon_products">
+                    <div class="name-products">
+                        <span>Computer</span>
+                    </div>
+    
+                </a>
+            </div>
+            <div class="products">
+                <a href="*" class="products">
+                    <img src="img/watch-smart.png" alt="" class="icon_products">
+                    <div class="name-products">
+                        <span>Smart Watch</span>
+                    </div>
+                </a>
+            </div>
+            <div class="products">
+                <a href="*" class="products">
+                    <img src="img/clock.png" alt="" class="icon_products">
+                    <div class="name-products">
+                        <span>Lock</span>
+                    </div>
+                </a>
+            </div>
+            <div class="products">
+                <a href="*" class="products">
+                    <img src="img/headphones.png" alt="" class="icon_products">
+                    <div class="name-products">
+                        <span>Headphone</span>
+                    </div>
+                </a>
+            </div>
+            <div class="products">
+                <a href="*" class="products">
+                    <img src="img/calculator-bill.png" alt="" class="icon_products">
+                    <div class="name-products">
+                        <span>Other</span>
+                    </div>
+                </a>
+            </div>
         </div>
-        <div class="products">
-            <a href="*" class="products">
-                <img src="img/clock.png" alt="" class="icon_products">
-                <div class="name-products">
-                    <span>Lock</span>
-                </div>
-            </a>
-        </div>
-        <div class="products">
-            <a href="*" class="products">
-                <img src="img/headphones.png" alt="" class="icon_products">
-                <div class="name-products">
-                    <span>Headphone</span>
-                </div>
-            </a>
-        </div>
-        <div class="products">
-            <a href="*" class="products">
-                <img src="img/calculator-bill.png" alt="" class="icon_products">
-                <div class="name-products">
-                    <span>Other</span>
-                </div>
-            </a>
-        </div>
-    </div>
+    </header>
     <div class="loginBox">
         <div class="boxLeft">
             <img src="https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/3404312/6400/4800/m1/fpnw/wm0/dotted-world-black-.jpg?1507883139&s=33561695ef46035e30800a471bda5013" alt="">
         </div>
-        <form action="" class="boxRight">
+        <div class="boxRight">
+            <form action="" class="">
+                <div>
+                    <input type="text" placeholder="Nhập gmail hoặc số điện thoại" id="gmail">
+                </div>
+                <div>
+                    <input type="password" placeholder="Mật khẩu" id="pass">
+                </div>
+                <div>
+                    <input type="submit" value="Đăng nhập" onclick="getValue()" placeholder="Login" id="login">
+                </div>
+            </form>
             <div>
-                <input type="text" placeholder="Nhập gmail hoặc số điện thoại" id="gmail">
+                <a href="">Đăng ký</a>
             </div>
-            <div>
-                <input type="password" placeholder="Mật khẩu" id="pass">
-            </div>
-            <div>
-                <input type="submit" value="Đăng nhập" onclick="getValue()" placeholder="Login" id="login">
-            </div>
-        </form>
+        </div>
         <script src="javascript/test.js"></script>>
     </div>
 </body>

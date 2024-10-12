@@ -1,7 +1,8 @@
  body{
-    background-color: rgba(238, 237, 236, 0.915);
+    background-color: rgba(231, 114, 11, 0.915);
     margin: 0px;
     padding: 0px;
+    background-color: #f3ecec;
 }
 .listBanner{
     display: flex;
@@ -19,12 +20,16 @@
     margin: 0 auto;
     text-align: center;
     overflow: hidden;
-   max-width: 1200px;
+    max-width: 1200px;
+    height: 250px;
     padding: 0;
     position: relative;
 }
+.bx{
+    font-size: 40px;
+}
 .btn{
-    font-size: 60px;
+    font-size: 20px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -50,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 5px;
 }
 
-nav{
+.best_products nav{
     padding: 0px 50px;
     display: flex;
     justify-content: space-between;
@@ -58,7 +63,7 @@ nav{
 }
 nav nav{
     border: 0px;
-    width: 900px;
+    width: 1000px;
 }
 nav nav a{
     padding-top: 20px;
@@ -77,8 +82,8 @@ nav a img {
     height: auto;
 }
 .product img{
-    height: 250px;
-    width: 250px;
+    height: 248px;
+    width: 248px;
     object-fit:scale-down;
     padding: 250px - height;
     border-radius: 10px;

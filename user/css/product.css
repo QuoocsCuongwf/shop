@@ -63,7 +63,7 @@ div{
 }
 .container2 form label{ 
     width: auto;
-    height: 20px;
+    height: 40px;
     text-align: center;
     padding:10px 30px;
     margin-right: 30px;
@@ -92,7 +92,7 @@ div{
 .color form label{ 
     position: relative;
     width: auto;
-    height: 20px;
+    height: 30px;
     margin: 0px 10px 10px 0px;
     text-align: center;
     padding: 5px 10px 5px 10px ;
@@ -143,4 +143,36 @@ div{
    font-size: 20px;
    color: rgba(240, 248, 255, 0);
    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+    margin: 15px;
+}
+
+.buy{
+    height: 150px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}
+
+.mua{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 60px;
+    padding: 18px 70px;
+    border: 1px solid rgb(228, 0, 0);
+    border-radius: 15px;
+}  
+
+.mua-ngay{
+    background-color:rgb(255, 0, 0);
+    color: aliceblue;
+}
+.mua-tra-gop-qua-the , .mua-tra-gop{
+    color: aliceblue;
+    background-color: rgb(6, 143, 241);
+    border: 2px solid rgb(6, 143, 241);
 }

@@ -9,6 +9,7 @@
     justify-content: space-between;
 }
 .logo{
+    display: inline-block;
     font-family: forte;
     font-size: 35px;
     margin-left: 50px;
@@ -28,6 +29,8 @@
     display: inline;
 }
 .login{
+    margin-top: 16px;
+    margin-left: 5px;
     float: right;
     padding-left:0px;
     display: inline;
@@ -38,6 +41,7 @@
     float: left;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+    margin-top: 16px;
 }
 .contract-pay{
     text-decoration: none;
@@ -61,7 +65,7 @@
     border: 1px solid gray;
     border-radius: 20px;
     width: 250px;
-    height: 20px;
+    height: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: #89aad957;
