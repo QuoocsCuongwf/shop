@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/headerBar.css">
     <link rel="stylesheet" href="css/productsBar.css">
     <link rel="stylesheet" href="css/product.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Document</title>
 </head>
 <body>
@@ -15,40 +16,47 @@
                 <span style="color: aliceblue;">TapTap</span>
                 <span>Shop</span>
             </div>
-            <form action="" class="header_search">
-                <div>
+            <div style="display: flex;">
+                <form action="*" class="header_search">
                     <input class="input_search" type="text" placeholder="tìm kiếm">
+                </form>
+                <div class="login">
+                    <a href="login.html" style="text-decoration: none;"> 
+                        <div style="display: flex;">
+                            <div>
+                                <img src="img/user.png" style="height: 20px; width: 20px; margin: 15px; display: inline;">
+                            </div>
+                            <div>
+                                <p style="padding-top: 1px; color: black;">Login</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-            </form>
-            <div class="login">
-                <a href="login.html" style="text-decoration: none;"> 
-                    <div style="display: flex;">
-                        <div>
-                            <img src="img/user.png" style="height: 20px; width: 20px; margin: 15px; display: inline;">
+                <div class="Shopping">
+                    <a href="*" style="text-decoration: none;"> 
+                        <div style="display: flex;">
+                            <div>
+                                <img src="img/shopping-cart.png" style="height: 20px; width: 20px; margin: 15px; display: inline;">
+                            </div>
+                            <div>
+                                <p style="padding-top: 1px; color: black;">Shopping</p>
+                            </div>
                         </div>
-                        <div>
-                            <p style="padding-top: 1px; color: black;">Login</p>
-                        </div>
-                    </div>
-                </a>
+                    </a>
+                </div>
             </div>
-            <div class="Shopping">
-                <a href="*" style="text-decoration: none;"> 
-                    <div style="display: flex;">
-                        <div>
-                            <img src="img/shopping-cart.png" style="height: 20px; width: 20px; margin: 15px; display: inline;">
-                        </div>
-                        <div>
-                            <p style="padding-top: 1px; color: black;">Shopping</p>
-                        </div>
-                    </div>
+            <div class="address">
+                <a href="">
+                    <i class='bx bx-map' ></i>
+                    <span>Tp Hồ Chí Minh</span>
                 </a>
-            </div>
-            <div class="contract-pay">
-                <nav>
-                    <a href="payGate.html"><span>Matter Card: 4645**********7574</span></a>
-                </nav>
-                <span> &nbsp| user@gmail.com</span>
+                <form action="">
+                    <!-- <select name="calc_shipping_provinces" required="">
+                        <option value="">Tỉnh / Thành phố</option>
+                    <input class="billing_address_1" name="" type="hidden" value="">
+                    <input class="billing_address_2" name="" type="hidden" value=""> -->
+
+                </form>
             </div>
         </div>
         <div style="height: 40px;"></div>
@@ -136,6 +144,38 @@
                         <input type="radio" name="memory" id="512gb">
                         <label for="512gb">512GB</label>
                     </form>
+                </div>
+                <div class="color">
+                    <form action="">
+                        <input type="radio" name="memory" value="Titan-Trang" id="Titan-Trang">
+                        <label for="Titan-Trang"> <i class='bx bx-radio-circle' style="background-color:#F2F1EB"></i>&nbsp &nbsp &nbsp Titan Trắng</label>
+                        <input type="radio" name="memory" value="Titan-Sa-Mac" id="Titan-Sa-Mac">
+                        <label for="Titan-Sa-Mac"> <i class='bx bx-radio-circle'style="background-color:#C4AB97"></i> &nbsp &nbsp &nbsp Titan Sa Mạc</label>
+                        <input type="radio" name="memory" value="Titan-Tu-Nhien" id="Titan-Tu-Nhien">
+                        <label for="Titan-Tu-Nhien"> <i class='bx bx-radio-circle' style="background-color:#BAB4A9"> </i> &nbsp &nbsp &nbsp Titan Tự Nhiên</label>
+                        <br>
+                        <input type="radio" name="memory" value="Titan-Den" id="Titan-Den">
+                        <label for="Titan-Den"> <i class='bx bx-radio-circle' style="background-color:#3F4042"> </i> &nbsp &nbsp &nbsp Titan Đen</label>
+                    </form>
+                </div>
+                <span class="gia-chinh-thuc"> Giá chính thức:</span>
+                <br>
+                <b class="gia">30.000.000&#8363</b>
+                <br>
+                <br>
+                <div class="khuyen-mai">
+                    <div class="thoi-gian">
+                        <b>Khuyến mãi</b>
+                        <br>
+                        <span>Diễn ra từ 00:00:00: 11/10/2024 đến 24:00:00 21/10/2024</span>
+                    </div>
+                    <ul class="noi-dung">
+                        <li>Phiếu mua hàng trị giá 200,000đ mua sim Mobifone 6MWG125</li>
+                        <br>
+                        <li>Thu cũ Đổi mới: Giảm thêm đến 2,000,000Đ (Áp dụng tuỳ model máy cũ, Không kèm ưu đãi thanh toán qua cổng, mua kèm)</li>
+                        <br>
+                        <li>Nhập mã VNPAYTGDD4 giảm từ 50,000đ đến 100,000đ (áp dụng tùy giá trị đơn hàng) khi thanh toán qua VNPAY-QR.</li>
+                    </ul>
                 </div>
             </div>
         </div>

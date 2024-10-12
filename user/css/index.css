@@ -34,6 +34,9 @@
 .btn:hover{
     color: aliceblue;
 }
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.5;
+}
 .btnLeft{
     left: 0;
 }
@@ -74,22 +77,29 @@ nav a img {
     height: auto;
 }
 .product img{
+    height: 250px;
     width: 250px;
-    height: auto;
+    object-fit:scale-down;
+    padding: 250px - height;
     border-radius: 10px;
     margin-top: 20px;
 }
 .product{
     font-family: Arial, Helvetica, sans-serif;
+    position: relative;
     border-radius: 10px;
     width: 250px;
     margin: 20px 0px;
-    height: 400px;
+    height: 450px;
     border: 0.5px solid rgba(128, 128, 128, 0.212);
 }
 .product:hover{
     border: 0px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    img{
+        margin-top: 10px;
+        transition: 0.5s;
+    }
 }
 .product a{
     text-decoration: none;
@@ -116,8 +126,9 @@ nav a img {
 }
 .price{
     text-align: end;
-    margin-right: 34px;
-    margin-top: 15px;
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
 }
 
 .feature{
@@ -135,4 +146,21 @@ nav a img {
 
 a {
     text-decoration: none;
+}
+
+.mua-ngay{
+    text-align: center;
+    padding-top: 10px;
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgba(0, 255, 255, 0.127);
+    position: absolute;
+    bottom: 5px;
+    left: 5%;
+    right: 5%;
+}
+
+.mua-ngay span {
+    color: blueviolet;
 }
