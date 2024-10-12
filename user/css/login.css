@@ -4,7 +4,7 @@ body{
 }
 .loginBox{
     background-color: rgba(238, 237, 236, 0.915);
-    width: 80%;
+   max-width: 1200px;
     height: 250px;
     display: flex;
     justify-content: space-between;

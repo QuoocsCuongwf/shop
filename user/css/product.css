@@ -4,7 +4,7 @@ body{
     background-color: antiquewhite;
 }
 .container-product{
-    width: 80%;
+   max-width: 1200px;
     height: auto;
     background-color: white;
     margin: 0px auto;

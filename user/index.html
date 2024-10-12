@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/productsBar.css">
     <link rel="stylesheet" href="css/headerBar.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/vietblogdao/js/districts.min.js"></script>
+    <script src="javascript/provinces.js"></script>
 </head>
 <body>
     <header>
@@ -16,38 +19,47 @@
                 <span style="color: aliceblue;">TapTap</span>
                 <span>Shop</span>
             </div>
-            <form action="*" class="header_search">
-                <div>
+            <div style="display: flex;">
+                <form action="*" class="header_search">
                     <input class="input_search" type="text" placeholder="tìm kiếm">
+                </form>
+                <div class="login">
+                    <a href="login.html" style="text-decoration: none;"> 
+                        <div style="display: flex;">
+                            <div>
+                                <img src="img/user.png" style="height: 20px; width: 20px; margin: 15px; display: inline;">
+                            </div>
+                            <div>
+                                <p style="padding-top: 1px; color: black;">Login</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-            </form>
-            <div class="login">
-                <a href="login.html" style="text-decoration: none;"> 
-                    <div style="display: flex;">
-                        <div>
-                            <img src="img/user.png" style="height: 20px; width: 20px; margin: 15px; display: inline;">
+                <div class="Shopping">
+                    <a href="*" style="text-decoration: none;"> 
+                        <div style="display: flex;">
+                            <div>
+                                <img src="img/shopping-cart.png" style="height: 20px; width: 20px; margin: 15px; display: inline;">
+                            </div>
+                            <div>
+                                <p style="padding-top: 1px; color: black;">Shopping</p>
+                            </div>
                         </div>
-                        <div>
-                            <p style="padding-top: 1px; color: black;">Login</p>
-                        </div>
-                    </div>
-                </a>
+                    </a>
+                </div>
             </div>
-            <div class="Shopping">
-                <a href="*" style="text-decoration: none;"> 
-                    <div style="display: flex;">
-                        <div>
-                            <img src="img/shopping-cart.png" style="height: 20px; width: 20px; margin: 15px; display: inline;">
-                        </div>
-                        <div>
-                            <p style="padding-top: 1px; color: black;">Shopping</p>
-                        </div>
-                    </div>
+            <div class="address">
+                <a href="">
+                    <i class='bx bx-map' ></i>
+                    <span>Tp Hồ Chí Minh</span>
                 </a>
-            </div>
-            <div class="contract-pay">
-                <a href="payGate.html"><span>Pay Gate</span></a>
-                <span> &nbsp| user@gmail.com</span>
+                <form action="">
+                    <!-- <select name="calc_shipping_provinces" required="">
+                        <option value="">Tỉnh / Thành phố</option>
+                    <input class="billing_address_1" name="" type="hidden" value="">
+                    <input class="billing_address_2" name="" type="hidden" value=""> -->
+
+                </form>
             </div>
         </div>
         <div style="height: 40px;"></div>
@@ -135,6 +147,7 @@
             </div>  
         </div>
     </header>
+    <H1 style="margin-left: 157px; font-family: Arial, Helvetica, sans-serif;" >Khuyến mãi online</H1>
     <div class="best_products">
         <nav>
             <a href="" id="sale">
@@ -349,229 +362,11 @@
                 </div>
                 </a>
             </div>
-            <div class="product">
-                <a href="">
-                    <img src="img/products/iphone-16-pro-max-tu-nhien-thumb-600x600.jpg" alt="">
-                    <h4>Iphone 16 Pro Max 256GB</h4>
-                    <div class="container-product">
-                    <div class="feature">
-                        <span>6.9"</span>
-                        <span>Super Retina XDR</span>
-                    </div>
-                    <div class="price">
-                        <span class="old_price">50 000 000&#8363</span>
-                        <br>
-                        <span class="new_price">36 000 000&#8363</span>
-                    </div>
-                </div>
-                </a>
-            </div>
-            <div class="product">
-                <a href="">
-                    <img src="img/products/iphone-16-pro-max-tu-nhien-thumb-600x600.jpg" alt="">
-                    <h4>Iphone 16 Pro Max 256GB</h4>
-                    <div class="container-product">
-                    <div class="feature">
-                        <span>6.9"</span>
-                        <span>Super Retina XDR</span>
-                    </div>
-                    <div class="price">
-                        <span class="old_price">50 000 000&#8363</span>
-                        <br>
-                        <span class="new_price">36 000 000&#8363</span>
-                    </div>
-                </div>
-                </a>
-            </div>
-            <div class="product">
-                <a href="">
-                    <img src="img/products/iphone-16-pro-max-tu-nhien-thumb-600x600.jpg" alt="">
-                    <h4>Iphone 16 Pro Max 256GB</h4>
-                    <div class="container-product">
-                    <div class="feature">
-                        <span>6.9"</span>
-                        <span>Super Retina XDR</span>
-                    </div>
-                    <div class="price">
-                        <span class="old_price">50 000 000&#8363</span>
-                        <br>
-                        <span class="new_price">36 000 000&#8363</span>
-                    </div>
-                </div>
-                </a>
-            </div>
-            <div class="product">
-                <a href="">
-                    <img src="img/products/iphone-16-pro-max-tu-nhien-thumb-600x600.jpg" alt="">
-                    <h4>Iphone 16 Pro Max 256GB</h4>
-                    <div class="container-product">
-                    <div class="feature">
-                        <span>6.9"</span>
-                        <span>Super Retina XDR</span>
-                    </div>
-                    <div class="price">
-                        <span class="old_price">50 000 000&#8363</span>
-                        <br>
-                        <span class="new_price">36 000 000&#8363</span>
-                    </div>
-                </div>
-                </a>
-            </div>
-            <div class="product">
-                <a href="">
-                    <img src="img/products/iphone-16-pro-max-tu-nhien-thumb-600x600.jpg" alt="">
-                    <h4>Iphone 16 Pro Max 256GB</h4>
-                    <div class="container-product">
-                    <div class="feature">
-                        <span>6.9"</span>
-                        <span>Super Retina XDR</span>
-                    </div>
-                    <div class="price">
-                        <span class="old_price">50 000 000&#8363</span>
-                        <br>
-                        <span class="new_price">36 000 000&#8363</span>
-                    </div>
-                </div>
-                </a>
-            </div>
-            <div class="product">
-                <a href="">
-                    <img src="img/products/iphone-16-pro-max-tu-nhien-thumb-600x600.jpg" alt="">
-                    <h4>Iphone 16 Pro Max 256GB</h4>
-                    <div class="container-product">
-                    <div class="feature">
-                        <span>6.9"</span>
-                        <span>Super Retina XDR</span>
-                    </div>
-                    <div class="price">
-                        <span class="old_price">50 000 000&#8363</span>
-                        <br>
-                        <span class="new_price">36 000 000&#8363</span>
-                    </div>
-                </div>
-                </a>
-            </div>
-            <div class="product">
-                <a href="">
-                    <img src="img/products/iphone-16-pro-max-tu-nhien-thumb-600x600.jpg" alt="">
-                    <h4>Iphone 16 Pro Max 256GB</h4>
-                    <div class="container-product">
-                    <div class="feature">
-                        <span>6.9"</span>
-                        <span>Super Retina XDR</span>
-                    </div>
-                    <div class="price">
-                        <span class="old_price">50 000 000&#8363</span>
-                        <br>
-                        <span class="new_price">36 000 000&#8363</span>
-                    </div>
-                </div>
-                </a>
-            </div>
-            <div class="product">
-                <a href="">
-                    <img src="img/products/iphone-16-pro-max-tu-nhien-thumb-600x600.jpg" alt="">
-                    <h4>Iphone 16 Pro Max 256GB</h4>
-                    <div class="container-product">
-                    <div class="feature">
-                        <span>6.9"</span>
-                        <span>Super Retina XDR</span>
-                    </div>
-                    <div class="price">
-                        <span class="old_price">50 000 000&#8363</span>
-                        <br>
-                        <span class="new_price">36 000 000&#8363</span>
-                    </div>
-                </div>
-                </a>
-            </div>
-            <div class="product">
-                <a href="">
-                    <img src="img/products/iphone-16-pro-max-tu-nhien-thumb-600x600.jpg" alt="">
-                    <h4>Iphone 16 Pro Max 256GB</h4>
-                    <div class="container-product">
-                    <div class="feature">
-                        <span>6.9"</span>
-                        <span>Super Retina XDR</span>
-                    </div>
-                    <div class="price">
-                        <span class="old_price">50 000 000&#8363</span>
-                        <br>
-                        <span class="new_price">36 000 000&#8363</span>
-                    </div>
-                </div>
-                </a>
-            </div>
-            <div class="product">
-                <a href="">
-                    <img src="img/products/iphone-16-pro-max-tu-nhien-thumb-600x600.jpg" alt="">
-                    <h4>Iphone 16 Pro Max 256GB</h4>
-                    <div class="container-product">
-                    <div class="feature">
-                        <span>6.9"</span>
-                        <span>Super Retina XDR</span>
-                    </div>
-                    <div class="price">
-                        <span class="old_price">50 000 000&#8363</span>
-                        <br>
-                        <span class="new_price">36 000 000&#8363</span>
-                    </div>
-                </div>
-                </a>
-            </div>
-            <div class="product">
-                <a href="">
-                    <img src="img/products/iphone-16-pro-max-tu-nhien-thumb-600x600.jpg" alt="">
-                    <h4>Iphone 16 Pro Max 256GB</h4>
-                    <div class="container-product">
-                    <div class="feature">
-                        <span>6.9"</span>
-                        <span>Super Retina XDR</span>
-                    </div>
-                    <div class="price">
-                        <span class="old_price">50 000 000&#8363</span>
-                        <br>
-                        <span class="new_price">36 000 000&#8363</span>
-                    </div>
-                </div>
-                </a>
-            </div>
-            <div class="product">
-                <a href="">
-                    <img src="img/products/iphone-16-pro-max-tu-nhien-thumb-600x600.jpg" alt="">
-                    <h4>Iphone 16 Pro Max 256GB</h4>
-                    <div class="container-product">
-                    <div class="feature">
-                        <span>6.9"</span>
-                        <span>Super Retina XDR</span>
-                    </div>
-                    <div class="price">
-                        <span class="old_price">50 000 000&#8363</span>
-                        <br>
-                        <span class="new_price">36 000 000&#8363</span>
-                    </div>
-                </div>
-                </a>
-            </div>
-            <div class="product">
-                <a href="">
-                    <img src="img/products/iphone-16-pro-max-tu-nhien-thumb-600x600.jpg" alt="">
-                    <h4>Iphone 16 Pro Max 256GB</h4>
-                    <div class="container-product">
-                    <div class="feature">
-                        <span>6.9"</span>
-                        <span>Super Retina XDR</span>
-                    </div>
-                    <div class="price">
-                        <span class="old_price">50 000 000&#8363</span>
-                        <br>
-                        <span class="new_price">36 000 000&#8363</span>
-                    </div>
-                </div>
-                </a>
-            </div>
         </div>
     </div>
     <script src="javascript/banner.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/vietblogdao/js/districts.min.js"></script>
+    <script src="javascript/provinces.js"></script>
 </body>
 </html>

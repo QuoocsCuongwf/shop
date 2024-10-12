@@ -13,12 +13,13 @@
     height: auto;
     margin: auto auto;
     padding-top: 10px;
+    object-fit: cover;
 }
 .wrapper{
     margin: 0 auto;
     text-align: center;
     overflow: hidden;
-    width: 80%;
+   max-width: 1200px;
     padding: 0;
     position: relative;
 }
@@ -40,7 +41,7 @@
     right: 0;
 }
 .best_products{
-    width: 80%;
+    max-width: 1200px;
     margin: 0 auto;
     background-color: white;
     border-radius: 5px;
@@ -130,4 +131,8 @@ nav a img {
     padding: 2px;
     border-radius: 3px;
     background-color: rgba(148, 146, 146, 0.327);
+}
+
+a {
+    text-decoration: none;
 }
