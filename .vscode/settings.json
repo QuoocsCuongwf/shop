@@ -1,9 +1,20 @@
 {
     "background.fullscreen": {
+
         "images": [],
-        "opacity": 0.91,
+        "opacity": 0.9,
         "size": "cover",
         "position": "center",
         "interval": 0
+    },
+    "background.styles": [
+        {},
+        {},
+        {}
+    ],
+    "background.style": {
+        "background-position": "100% 100%",
+        "background-size": "1197px 704px",
+        "opacity": 0.5
     }
 }

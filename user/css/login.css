@@ -4,7 +4,7 @@ body{
 }
 .loginBox{
     background-color: rgba(238, 237, 236, 0.915);
-   max-width: 1200px;
+    max-width: 1200px;
     height: 500px;
     display: flex;
     justify-content: space-between;
@@ -22,6 +22,7 @@ img{
     width: 400px;;
 }
 .boxRight{
+    position: relative;
     width: 400px;
     height: 300px;
     border-radius: 20px;
@@ -52,7 +53,15 @@ input{
     background-color: #0069ff;
 }
 
-
-
-
+.dang-ky{
+    position: absolute;
+    bottom: 25%;
+    right: 20%;
+}
+.quen-mat-khau{
+    position: absolute;
+    bottom: 25%;
+    left: 20%;
+}
+}
 
