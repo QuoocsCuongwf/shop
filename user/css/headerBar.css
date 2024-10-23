@@ -15,7 +15,8 @@
     margin-left: 50px;
     /* padding-right: 250px; */
 }
-.headerSearch{
+.header_search{
+    position: relative;
     width: 400px;
     margin: 0 auto;
 }
@@ -26,11 +27,11 @@
     border: 0px;
     margin: 8px; left: 300px; right: 300px;
     border-radius: 20px;
-    display: inline;
+
 }
 .login{
     margin-top: 16px;
-    margin-left: 5px;
+    margin-left: 15px;
     float: right;
     padding-left:0px;
     display: inline;
@@ -52,6 +53,26 @@
     margin: auto auto;
     border: 0;
 }
+
+.bx-search{
+    position: absolute;
+    right: 10px;
+    top:9px;
+    font-size: 200%;
+    color: gray;
+}
+#submit-search{
+    right: 10px;
+    height: 0px;
+    padding: 15px;
+    position: absolute;
+    z-index: 10;
+    background-image: url(D:\code\shop\user\img\search-regular-24.png);
+    background-color: #006aff00;
+    border: 0px;
+    top: 8px;
+}
+
 
 .contract-pay nav a{
     text-decoration: none;
@@ -82,3 +103,35 @@
 .bx-map{
     font-size: 20px;
 }
+@media screen and (max-width: 400px) {
+    .logo{
+        display: inline-block;
+        font-family: forte;
+        font-size: 20px;
+        margin-left: 50px;
+        /* padding-right: 250px; */
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .address{
+        margin-right:  100px;
+        margin-top: 8px;
+        border: 1px solid gray;
+        border-radius: 20px;
+        width: 200px;
+        height: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: #89aad957;
+    }
+    .input_search{
+        height: 30px; 
+        width: 300px;
+        padding-left: 10px;
+        border: 0px;
+        margin: 8px; left: 300px; right: 300px;
+        border-radius: 20px;
+    
+    }
+  }

@@ -51,8 +51,10 @@ h1, h2, h3, h4, h5, h6 {
 .best_products{
     max-width: 1200px;
     margin: 0 auto;
+    padding-bottom: 20px;
     background-color: white;
     border-radius: 5px;
+    text-align: center;
 }
 
 .best_products nav{
@@ -81,6 +83,19 @@ nav a img {
     width: 50px;
     height: auto;
 }
+.chuc-nang-account{
+    background-color: aquamarine;
+    display: none;
+}
+
+.login:hover{
+    .chuc-nang-account{
+        display: block;
+        position: absolute;
+    }
+}
+
+
 .product img{
     height: 248px;
     width: 248px;
@@ -165,7 +180,22 @@ a {
     left: 5%;
     right: 5%;
 }
-
 .mua-ngay span {
     color: blueviolet;
+}
+
+.nextPage{
+    height:30px;
+    width: 20px;
+    font-size: 10px;
+    padding: 10px 15px;
+    margin: 5px;
+    border: 2px solid rgb(0, 168, 230);
+    border-radius: 9px;
+    text-size-adjust:20px;
+}
+
+.page1{
+    color: #f3ecec;
+    background-color: rgb(0, 168, 230);
 }

@@ -40,8 +40,10 @@
     position: absolute;
 }
 
-.menu div input:checked + label div{
-    display: block;
-    position: absolute;
-    right: 0px;
+.menu form div input:checked {
+    .a{
+        display: block;
+        position: absolute;
+        right: 0px;
+    }
 }
