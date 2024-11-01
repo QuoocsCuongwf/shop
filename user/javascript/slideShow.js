@@ -1,6 +1,6 @@
-const listBanner=document.querySelector('.listBanner')
+const listBanner=document.querySelector('.listItem')
 console.log(listBanner)
-const banner=document.getElementsByClassName('banner')
+const banner=document.getElementsByClassName('items')
 const btnLeft=document.querySelector('.btnLeft')
 const btnRight=document.querySelector('.btnRight')
 
